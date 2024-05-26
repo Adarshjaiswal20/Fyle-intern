@@ -8,6 +8,8 @@ import { Router } from '@angular/router';
   styleUrls: ['./user-form.component.scss']
 })
 export class UserFormComponent {
+  //unit Testing  for one component
+  componentName="user-form"
   constructor(private api: ApiService, private route: Router) {}
   public loading:boolean = false;
   inputData: string = '';
